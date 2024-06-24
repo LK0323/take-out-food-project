@@ -10,7 +10,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Slf4j
 @SpringBootApplication
 @ServletComponentScan
-@EnableTransactionManagement
+@EnableTransactionManagement(proxyTargetClass = true)
+//@EnableTransactionManagement
 @EnableCaching
 public class ReggieApplication {
     public static void main(String[] args) {

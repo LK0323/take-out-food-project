@@ -10,6 +10,7 @@ import com.lk.reggie.eneity.Dish;
 import com.lk.reggie.eneity.Setmeal;
 import com.lk.reggie.eneity.SetmealDish;
 import com.lk.reggie.service.CategoryService;
+import com.lk.reggie.service.OrderDetailService;
 import com.lk.reggie.service.SetmealDishService;
 import com.lk.reggie.service.SetmealService;
 import lombok.extern.slf4j.Slf4j;
@@ -38,6 +39,9 @@ public class SetmealController {
 
     @Autowired
     private SetmealDishService setmealDishService;
+
+//    @Autowired
+//    private OrderDetailService orderDetailService;
 
     /**
      * 新增套餐
