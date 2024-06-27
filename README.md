@@ -1,2 +1,3 @@
 # Reggie外卖平台
 完善了教程外的增删改查行为，完整代码在此记录...
+![image](https://github.com/LK0323/take-out-food-project/assets/105207862/9d143d90-829c-4458-a6b1-5f0ab2fde371)
